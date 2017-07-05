@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="author" contect="xushaoxie, 1054563823@qq.com" />
+    <meta content="yes" name="apple-mobile-web-app-capable">                <!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta name="apple-touch-fullscreen" content="yes" />                    <!-- ios全屏模式 -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">     <!-- 状态栏的背景颜色为黑色 black-translucent（灰色半透明）-->
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" media="screen" />
+    <meta name="description" content="二手车买卖">
+    <meta name="keywords" content="西瓜店">  
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>西瓜二手车</title>
+    <!-- Bootstrap -->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+
+<div class=" index clearfix"><!-- container -->
+  <div class="index_top">
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse nav-top clearfix" role="navigation">    
+        <div class="bg-color-35-5073"></div>
+        <div class="bg-color-5-0A6089"></div>
+        <div class="container"> 
+
+            <!-- 小屏幕时的导航条 注册登录 开始-->
+            <div class="navbar-header bg-color-5073 index-top position_re_z2">
+                 <button type="button" class="navbar-toggle navbar-toggle-size collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a href="javascript:;" class="navbar-brand navbar-brand2 show-bg padding-10-0 hover-color display-none"><img src="images/index_logo_logo4.png" alt="" width="100" height="31"></a>
+                  <a class="navbar-brand navbar-brand1 show-bg margin-left-0 user-login fl" href="javascript:;">Hi，请登录</a>
+                  <a class="navbar-brand navbar-brand1 show-bg margin-left-0 user-register fl" href="javascript:;">免费注册</a>
+            </div>
+            <!-- 小屏幕时的导航条 注册登录 结束-->
+
+            <div class="collapse navbar-collapse index-top1 bg_0a6fb0" id="bs-example-navbar-collapse-1">
+
+              <!-- 宽屏导航条 开始-->
+              <ul class="nav navbar-nav fr-fr position_re_z2">
+                  <li><a href="javascript:;" class="show-bg navbar-brand navbar-brand1 index_top_order">我的订单</a></li>
+                  <li><a href="javascript:;" class="show-bg navbar-brand navbar-brand1 index_top_cart">购物车</a></li>
+                  <li><a href="javascript:;" class="show-bg navbar-brand navbar-brand1 index_top_fav">收藏夹</a></li>
+                  
+                  <li class="dropdown user_serve">
+                      <a href="javascript:;" class="dropdown-toggle show-bg serve navbar-brand1 index_top_serve" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">客户服务<!-- <span class="caret"></span> --></a>
+                          <ul class="dropdown-menu dropdown-menu1 serve-child" role="menu">
+                              <li><a href="http://wpa.qq.com/msgrd?v=3&uin=1054563823&site=qq&menu=yes" target="new">在线客服</a></li>
+                              <li><a href="javascript:;">售后服务</a></li>
+                              <li><a href="javascript:;">购物指南</a></li>
+                          </ul> 
+                  </li>
+              </ul>
+              <!-- 宽屏导航条 结束-->
+
+
+              <!-- 西瓜店logo 开始-->
+              <div class="collapse-a" style="clear:both;"><!--  style="clear:both;" -->
+                <a href="javascript:;" class="show-bg hover-color display-block fl">
+                  <img src="images/index_logo_logo2.png" alt="" width="350" height="100">
+                </a>
+              </div>
+              <!-- 西瓜店logo 结束-->
+
+              <ul class="nav navbar-nav position_ar fr-fr">
+                <!-- 城市定位 开始-->
+                <li class="dropdown position_area">
+                    <a href="javascript:;" class="dropdown-toggle show-bg city_icon" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">柳州<span class="caret11"></span></a>
+
+                        <!-- 小屏幕城市列表 开始-->
+                        <ul class="dropdown-menu dropdown-menu1 display_menu1" role="menu">                                
+                            <li class="fl"><a href="javascript:;">南宁</a></li>
+                            <li class="fl"><a href="javascript:;">柳州</a></li>
+                            <li class="fl"><a href="javascript:;">桂林</a></li>
+                            <li class="fl"><a href="javascript:;">梧州</a></li>
+                            <li class="fl"><a href="javascript:;">北海</a></li>
+                            <li class="fl"><a href="javascript:;">钦州</a></li>
+                            <li class="fl"><a href="javascript:;">贵港</a></li>
+                            <li class="fl"><a href="javascript:;">玉林</a></li>
+                            <li class="fl"><a href="javascript:;">百色</a></li>
+                            <li class="fl"><a href="javascript:;">贺州</a></li>
+                            <li class="fl"><a href="javascript:;">河池</a></li>
+                            <li class="fl"><a href="javascript:;">来宾</a></li>
+                            <li class="fl"><a href="javascript:;">崇左</a></li>
+                            <li class="fl"><a href="javascript:;">防城港</a></li>
+                        </ul>
+                        <!-- 小屏幕城市列表 结束-->
+
+                        <!-- 大屏幕城市列表 开始-->
+                        <ul class="dropdown-menu dropdown-menu1 display_menu2" role="menu">
+                
+                            <div class="index_logo_city_">
+                              <div class="index_logo_city_list">
+                                <dl>
+                                    <dt>热门</dt>
+                                    <dd><a href="javascript:;">南宁</a><a href="javascript:;">柳州</a><a href="javascript:;">桂林</a><a href="javascript:;">梧州</a><a href="javascript:;">北海</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>A</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>B</dt>
+                                    <dd><a href="javascript:;">北海</a><a href="javascript:;">百色</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>C</dt>
+                                    <dd><a href="javascript:;">崇左</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>D</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>E</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>F</dt>
+                                    <dd><a href="javascript:;">防城港</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>G</dt>
+                                    <dd><a href="javascript:;">桂林</a><a href="javascript:;">贵港</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>H</dt>
+                                    <dd><a href="javascript:;">贺州</a><a href="javascript:;">河池</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>I</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>J</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>K</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>L</dt>
+                                    <dd><a href="javascript:;">柳州</a><a href="javascript:;">来宾</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>M</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>N</dt>
+                                    <dd><a href="javascript:;">南宁</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>O</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>P</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>Q</dt>
+                                    <dd><a href="javascript:;">钦州</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>R</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>S</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>T</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>U</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>V</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>W</dt>
+                                    <dd><a href="javascript:;">梧州</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>X</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl> 
+                                <dl>
+                                    <dt>Y</dt>
+                                    <dd><a href="javascript:;">玉林</a></dd>
+                                </dl> 
+                                <dl>
+                                    <dt>Z</dt>
+                                    <dd>&nbsp;</dd>
+                                </dl>
+                              </div>
+                            </div>
+                        </ul>
+                        <!-- 大屏幕城市列表 结束-->
+                </li>
+                <!-- 城市定位 结束-->
+
+                <!-- 车品牌车型搜索 开始-->
+                <li class="fr-fr">
+                    <div class="index_logo_search">
+                        <span class="media_fr">
+                          <form method="post" class="search-form" name="search_form" action="javascript:;" id="search-form" >
+                            <input type="hidden" name="ciid" value="">
+                            <input type="text" class="index_logo_search_input" id="search_input" placeholder="请输入要买的品牌" name="brr" autocomplete="off" value=""><!--为了给ajax的获得ciid--><input type="submit" class="search_btn"  value="搜索"/>
+                            <input type="hidden" id="ciid_ciid" value=""><!--为了给搜索列表不变的获得input原来的值-->
+                            <input type="hidden" id="sear_input" value="">
+                          </form>
+                        </span>
+                        <!--1、在div的class中fr会影响到下一个div浮动 就得这样,2、加一个<div class="hr_5"></div>也可以，如购物车页面3、或者 加一个overflow onsubmit="return search_abc()"-->
+                    </div>
+                </li>
+                <!-- 车品牌车型搜索 结束-->
+
+              </ul>
+              <!-- 首页导航条 开始-->
+              <ul class="nav navbar-nav index-nav1" style="clear: both;">
+                  <li ><!-- class="active" --><a href="javascript:;" class="active show-bg">首页</a></li>
+                  <li><a href="javascript:;" class="show-bg">买车</a></li>
+                  <li><a href="javascript:;" class="show-bg">卖车</a></li>
+                  <li><a href="javascript:;" class="show-bg">评估</a></li>
+                  <li><a href="javascript:;" class="show-bg">服务保障</a></li>
+                  <li class="position_abs"><a href="javascript:;" class="show-bg">意见反馈</a></li>
+              </ul>
+              <!-- 首页导航条 结束-->
+
+            </div>
+        </div>     
+    </nav>
+
+  </div>
+</div>
+
+<div class="hr_30_30"></div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 padding_0_0_0_15">
+      <div class="index_main_cate position_re">
+
+        <!-- 车型右显示开始 -->
+        <div class="index_main_csign_more over_hidden display_n">
+            <div class="index_main_csign_more1">
+              <div class="index_main_csign_more_top"><h1>全部品牌</h1></div>
+              <div class="index_main_csign_more_bottom">
+                <div class="screen_display display_n">
+                  <dl>
+                      <dt>A</dt>
+                      <dd><a href="javascript:;">奥迪</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>B</dt>
+                      <dd><a href="javascript:;">奔驰</a><a href="javascript:;">宝马</a><a href="javascript:;">标致</a><a href="javascript:;">比亚迪</a><a href="javascript:;">本田</a><a href="javascript:;">保时捷</a><a href="javascript:;">宾利</a><a href="javascript:;">别克</a><a href="javascript:;">宝骏</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>C</dt>
+                      <dd><a href="javascript:;">长城</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>D</dt>
+                      <dd><a href="javascript:;">大众</a><a href="javascript:;">东风</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>F</dt>
+                      <dd><a href="javascript:;">丰田</a><a href="javascript:;">福特</a><a href="javascript:;">法拉利</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>G</dt>
+                      <dd><a href="javascript:;">广汽中兴</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>H</dt>
+                      <dd><a href="javascript:;">黑豹</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>J</dt>
+                      <dd><a href="javascript:;">捷豹</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>K</dt>
+                      <dd><a href="javascript:;">凯迪拉克</a><a href="javascript:;">卡威</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>L</dt>
+                      <dd><a href="javascript:;">铃木</a><a href="javascript:;">劳斯莱斯</a><a href="javascript:;">兰博基尼</a><a href="javascript:;">雷克萨斯</a><a href="javascript:;">路虎</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>M</dt>
+                      <dd><a href="javascript:;">马自达</a><a href="javascript:;">迈巴赫</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>O</dt>
+                      <dd><a href="javascript:;">讴歌</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>Q</dt>
+                      <dd><a href="javascript:;">奇瑞</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>R</dt>
+                      <dd><a href="javascript:;">日产</a><a href="javascript:;">荣威</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>S</dt>
+                      <dd><a href="javascript:;">三菱</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>T</dt>
+                      <dd><a href="javascript:;">天马</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>W</dt>
+                      <dd><a href="javascript:;">五菱</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>X</dt>
+                      <dd><a href="javascript:;">雪铁龙</a><a href="javascript:;">现代</a><a href="javascript:;">雪佛兰</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>Y</dt>
+                      <dd><a href="javascript:;">云豹</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>Z</dt>
+                      <dd><a href="javascript:;">中华众泰</a></dd>
+                  </dl> 
+                </div>
+                <div class="index_main_csign_more_left fl">
+                  <dl>
+                      <dt>A</dt>
+                      <dd><a href="javascript:;">奥迪</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>B</dt>
+                      <dd><a href="javascript:;">奔驰</a><a href="javascript:;">宝马</a><a href="javascript:;">标致</a><a href="javascript:;">比亚迪</a><a href="javascript:;">本田</a><a href="javascript:;">保时捷</a><a href="javascript:;">宾利</a><a href="javascript:;">别克</a><a href="javascript:;">宝骏</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>C</dt>
+                      <dd><a href="javascript:;">长城</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>D</dt>
+                      <dd><a href="javascript:;">大众</a><a href="javascript:;">东风</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>F</dt>
+                      <dd><a href="javascript:;">丰田</a><a href="javascript:;">福特</a><a href="javascript:;">法拉利</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>G</dt>
+                      <dd><a href="javascript:;">广汽中兴</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>H</dt>
+                      <dd><a href="javascript:;">黑豹</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>J</dt>
+                      <dd><a href="javascript:;">捷豹</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>K</dt>
+                      <dd><a href="javascript:;">凯迪拉克</a><a href="javascript:;">卡威</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>L</dt>
+                      <dd><a href="javascript:;">铃木</a><a href="javascript:;">劳斯莱斯</a><a href="javascript:;">兰博基尼</a><a href="javascript:;">雷克萨斯</a><a href="javascript:;">路虎</a></dd>
+                  </dl>         
+                </div>
+                <div class="index_main_csign_more_right fr">
+                  
+                  <dl>
+                      <dt>M</dt>
+                      <dd><a href="javascript:;">马自达</a><a href="javascript:;">迈巴赫</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>O</dt>
+                      <dd><a href="javascript:;">讴歌</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>Q</dt>
+                      <dd><a href="javascript:;">奇瑞</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>R</dt>
+                      <dd><a href="javascript:;">日产</a><a href="javascript:;">荣威</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>S</dt>
+                      <dd><a href="javascript:;">三菱</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>T</dt>
+                      <dd><a href="javascript:;">天马</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>W</dt>
+                      <dd><a href="javascript:;">五菱</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>X</dt>
+                      <dd><a href="javascript:;">雪铁龙</a><a href="javascript:;">现代</a><a href="javascript:;">雪佛兰</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>Y</dt>
+                      <dd><a href="javascript:;">云豹</a></dd>
+                  </dl> 
+                  <dl>
+                      <dt>Z</dt>
+                      <dd><a href="javascript:;">中华众泰</a></dd>
+                  </dl>
+                </div>
+              </div>            
+            </div>
+        </div>
+        <!-- 车型右显示结束 -->
+
+        <!-- 下拉列表车品牌开始 -->
+        <div class="index_main_car">
+          <div class="index_main_car_type"><a href="javascript:;" class="index_main_car_type">请选择车型</a></div>
+          <div class="index_main_car_list display_n"> 
+            <dl>
+                <dd><a href="javascript:;">A&nbsp;奥迪</a></dd>
+                <dd><a href="javascript:;">B&nbsp;奔驰</a></dd>
+                <dd><a href="javascript:;">B&nbsp;宝马</a></dd>
+                <dd><a href="javascript:;">B&nbsp;标致</a></dd>
+                <dd><a href="javascript:;">B&nbsp;比亚迪</a></dd>
+                <dd><a href="javascript:;">B&nbsp;本田</a></dd>
+                <dd><a href="javascript:;">B&nbsp;保时捷</a></dd>
+                <dd><a href="javascript:;">B&nbsp;宾利</a></dd>
+                <dd><a href="javascript:;">B&nbsp;别克</a></dd>
+                <dd><a href="javascript:;">B&nbsp;宝骏</a></dd>
+                <dd><a href="javascript:;">C&nbsp;长城</a></dd>
+                <dd><a href="javascript:;">D&nbsp;大众</a></dd>
+                <dd><a href="javascript:;">D&nbsp;东风</a></dd>
+                <dd><a href="javascript:;">F&nbsp;丰田</a></dd>
+                <dd><a href="javascript:;">F&nbsp;福特</a></dd>
+                <dd><a href="javascript:;">F&nbsp;法拉利</a></dd>
+                <dd><a href="javascript:;">G&nbsp;广汽中兴</a></dd>
+                <dd><a href="javascript:;">H&nbsp;黑豹</a></dd>
+                <dd><a href="javascript:;">J&nbsp;捷豹</a></dd>
+                <dd><a href="javascript:;">K&nbsp;凯迪拉克</a></dd>
+                <dd><a href="javascript:;">K&nbsp;卡威</a></dd>
+                <dd><a href="javascript:;">L&nbsp;铃木</a></dd>
+                <dd><a href="javascript:;">L&nbsp;劳斯莱斯</a></dd>
+                <dd><a href="javascript:;">L&nbsp;兰博基尼</a></dd>
+                <dd><a href="javascript:;">L&nbsp;雷克萨斯</a></dd>
+                <dd><a href="javascript:;">L&nbsp;路虎</a></dd>
+                <dd><a href="javascript:;">M&nbsp;马自达</a></dd>
+                <dd><a href="javascript:;">M&nbsp;迈巴赫</a></dd>
+                <dd><a href="javascript:;">O&nbsp;讴歌</a></dd>
+                <dd><a href="javascript:;">Q&nbsp;奇瑞</a></dd>
+                <dd><a href="javascript:;">R&nbsp;日产</a></dd>
+                <dd><a href="javascript:;">R&nbsp;荣威</a></dd>
+                <dd><a href="javascript:;">S&nbsp;三菱</a></dd>
+                <dd><a href="javascript:;">T&nbsp;天马</a></dd>
+                <dd><a href="javascript:;">W&nbsp;五菱</a></dd>
+                <dd><a href="javascript:;">X&nbsp;雪铁龙</a></dd>
+                <dd><a href="javascript:;">X&nbsp;现代</a></dd>
+                <dd><a href="javascript:;">X&nbsp;雪佛兰</a></dd>
+                <dd><a href="javascript:;">Y&nbsp;云豹</a></dd>
+                <dd><a href="javascript:;">Z&nbsp;中华</a></dd>
+                <dd><a href="javascript:;">Z&nbsp;众泰</a></dd>
+            </dl> 
+          </div>
+        </div>
+        <!-- 下拉列表车品牌结束 -->
+
+        <!-- 车品牌、车价格、车龄、车型 开始-->
+        <div class="index_main_cate1 width_270">
+          <div class="index_main_cate2 width_h_270_90">
+            <div class="index_main_csign position_re width_h_230_90 width_85_">
+              <p class="p1">
+              <a href="javascript:;" target="_blank">品牌</a>
+              </p>
+              <p class="p2"><a href="javascript:;" target="_blank">奥迪</a><a href="javascript:;" target="_blank">大众</a><a href="javascript:;" target="_blank">丰田</a><a href="javascript:;" target="_blank">宝马</a><a href="javascript:;" target="_blank">本田</a><span class="index_main_csign_n"><br></span><a href="javascript:;" target="_blank">奔驰</a><a href="javascript:;" target="_blank">现代</a><a href="javascript:;" target="_blank">别克</a><a href="javascript:;" target="_blank">福特</a><a href="javascript:;" target="_blank">日产</a>
+              </p>
+              <div class="index_main_csign_arrow"></div><!--向右箭头-->
+              <div class="index_main_csign_xting_jingguo display_n"></div><!--这个只是个浮动的-->
+            </div>
+          </div>
+          
+          <div class="index_main_cprice width_h_230_90 width_85_">
+            <p class="p1">
+            <a href="javascript:;" target="_blank">价格</a>
+            </p>
+            <p class="p2"><a href="javascript:;" target="_blank">5万内</a><a href="javascript:;" target="_blank">5-10万</a><a href="javascript:;" target="_blank">10-15万</a><a href="javascript:;" target="_blank">15-20万</a><a href="javascript:;" target="_blank">20-30万</a><a href="javascript:;" target="_blank">30万以上</a>
+            </p>      
+          </div>
+          <div class="index_main_cage width_h_230_90 width_85_">
+            <p class="p1">
+            <a href="javascript:;" target="_blank">车龄</a>
+            </p>
+            <p class="p2"><a href="javascript:;" target="_blank">1年内</a><a href="javascript:;" target="_blank">2年内</a><a href="javascript:;" target="_blank">2-4年</a><a href="javascript:;" target="_blank">4-6年</a><a href="javascript:;" target="_blank">6-8年</a><a href="javascript:;" target="_blank">8年以上</a>
+            </p>            
+          </div>
+          <div class="index_main_ctype width_h_230_86 width_85_">
+            <p class="p1">
+            <a href="javascript:;" target="_blank">车型</a>
+            </p>
+            <p class="p4">
+              <span><a href="javascript:;"><img src="images/index_main_ctype1.png"></a></span><span><a href="javascript:;"><img src="images/index_main_ctype2.png"></a></span><span><a href="javascript:;"><img src="images/index_main_ctype3.png"></a></span><span><a href="javascript:;"><img src="images/index_main_ctype4.png"></a></span><span><a href="javascript:;"><img src="images/index_main_ctype5.png"></a></span>
+            </p> 
+            <p class="p4"><span class="hrv"><a href="javascript:;" target="_blank">hrv</a></span><span class="jiao"><a href="javascript:;" target="_blank">桥车</a></span><span class="pao"><a href="javascript:;" target="_blank">跑车</a></span><span class="suv"><a href="javascript:;" target="_blank">suv</a></span><span class="mpv"><a href="javascript:;" target="_blank">mpv</a></span>
+            </p>                
+          </div>       
+        </div>
+        <!-- 车品牌、车价格、车龄、车型 结束-->
+
+      </div>
+    </div>
+    <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12 padding_0_15_0_8">
+
+      <!-- 右侧图片轮播 开始-->      
+      <div id="carousel-example-generic" class="carousel slide carousel-pic fr" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="img-responsive" title="西瓜车行界" src="images/index_main_pic1.png" />
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" title="西瓜车行界" src="images/index_main_pic2.png" />
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" title="西瓜车行界" src="images/index_main_pic3.png" />
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" title="西瓜车行界" src="images/index_main_pic4.png" />
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>   
+      <!-- 右侧图片轮播 结束-->
+
+      <!-- 人车故事 开始-->
+      <div class="row">
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+          <div class="index_main_pic cursor position_re">
+            <div class="index_main_pic_txt position_ab "><h1>好车推荐</h1><p>这里有你想要的</p></div>
+            <div class="index_main_pic_pic position_ab"><img title="好车推荐 这里有你想要的" src="images/index_main_pic_good_pic.png"></div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="index_main_pic_know index_main_pic cursor position_re">
+            <div class="index_main_pic_know_txt index_main_pic_txt position_ab "><h1>车辆知识</h1><p>希望你看得懂的</p></div>
+            <div class="index_main_pic_know_pic index_main_pic_pic position_ab"><img title="车辆知识 希望你看得懂的" src="images/index_main_pic_know_pic.png"></div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="index_main_pic_story index_main_pic cursor position_re">
+            <div class="index_main_pic_story_txt index_main_pic_txt position_ab "><h1>人车故事</h1><p>你有故事我有车</p></div>
+            <div class="index_main_pic_story_pic index_main_pic_pic position_ab"><img title="深度体验 你有故事我有车" src="images/index_main_pic_story_pic.png"></div>
+          </div> 
+        </div>
+      </div>
+      <!-- 人车故事 结束-->
+
+    </div>
+  </div>
+  
+  <!-- 淘我爱车−实惠二手车 开始-->
+  <div class="index_content_nav clearfix">
+    <h1>淘我爱车−实惠二手车</h1>
+    <div class="index_content_nav1 clearfix">
+      <div class="index_content_nav_like fl"><a href="javascript:;">猜你喜欢</a></div>
+      <div class="index_content_nav_newest fl"><a href="javascript:;">最新上架</a></div>
+      <div class="index_content_nav_new fl"><a href="javascript:;">准新车</a></div>
+      <div class="index_content_nav_more fr"><a href="javascript:;"><span>查看更多</span>&gt;&gt;</a></div>
+    </div>
+  </div>
+  <!-- 淘我爱车−实惠二手车 结束-->
+
+  <!-- 二手车列表 开始-->
+  <div class="row margin_0_5">
+    <script type="text/javascript">
+      var html='';
+      for (var i = 1; i<=12; i++) {
+        html+='<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 padding_0_5 margin_0_0_5_0">';
+          html+='<div class="index_content_con_c2 index_content_con_c over_hidden"><!--只用来设置内边距--><!--用来设置外右边距-->';
+            html+='<div class="index_content_con_cc ">';
+              html+='<div class="index_content_con_pic">';
+                html+='<img class="img-responsive" src="images/112.png">';
+              html+='</div>';
+              html+='<div class="index_content_con_txt ">';
+                html+='<p class="p1">';
+                  html+='<a title="现代瑞纳2014款 1.4 自动 GLS 智能型" href="#">现代瑞纳2014款 1.4 自动 GLS 智能型</a>';
+                html+='</p>';
+                html+='<p class="p2">';
+                  html+='<span class="">2015年1月上牌</span><em class="shuxian">|</em>行驶1.9万公里';
+                html+='</p>';
+                html+='<p class="p3">';
+                  html+='<span><i class="fc-org priType">6.60万</i></span><s>9.40万</s>';
+                html+='</p>';
+              html+='</div>';
+            html+='</div>';
+          html+='</div>';
+        html+='</div><!-- 1 -->';
+      }
+      document.write(html);
+    </script>
+  </div>
+  <!-- 二手车列表 结束-->
+
+
+
+  <div class="hr_120"></div>
+
+</div>
+  
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script>-->
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        /*$('.container .navbar-collapse .dropdown .serve').hover(function(){
+            $(this).css({"border":"solid #fff 1px","border-bottom":"none","border-top-left-radius":"2px","border-top-right-radius":"2px"});
+
+                },function(){           
+            $(this).css({"border":"none"});
+        });*/
+        /*$('.navbar-nav .dropdown').toggle(function(){
+                    $(this).css("backgroundColor","#1e78eb");
+                },function(){
+                    $(this).css("backgroundColor","#1e78eb");
+          });*/
+	
+		  /*客户服务*/
+	
+		  /*$(".index-top1 .index_top_serve").hover(function(){
+			  $(".index-top1 .serve_problem").css({"display":"block"});
+			  $(this).css({"background-color":"#0B6FB0"});
+			  },function(){
+			   $(".index-top1 .serve_problem").css({"display":"none"});
+			   $(this).css({"background-color":"#005073"});
+		  });
+		  
+		  $(".index-top1 .serve_problem").hover(function(){
+			  $(".index-top1 .index_top_serve").css({"background-color":"#0B6FB0"});
+			  $(this).css({"display":"block"});
+		  },function(){
+			  $(this).css({"display":"none"});
+			  $(".index-top1 .index_top_serve").css({"background-color":"#005073"});	
+			  
+		  });*/
+		  
+		 /* $(".index-top1 .index_top_serve").click(function(){
+			 $('.index-top1 .serve-child').css({"display":"none"}); 
+		  });
+*/
+		  
+    </script>
+</body>
+</html>

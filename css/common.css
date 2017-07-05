@@ -1,0 +1,3 @@
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 320px;
+}
